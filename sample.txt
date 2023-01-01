@@ -1,0 +1,29 @@
+{
+	"name": "Pançudinho",
+	"race": "Husky",
+	"age": 4
+}
+
+{
+	"name": "Max",
+	"race": "Biggle",
+	"age": 6
+}
+
+{
+	"name": "Jorgito",
+	"race": "Pug",
+	"age": 2
+}
+
+{
+	"name": "Orelhinha",
+	"race": "Golden",
+	"age": 4
+}
+
+{
+	"name": "Mr. Au Au",
+	"race": "Dalmata",
+	"age": 7
+}

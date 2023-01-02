@@ -1,4 +1,4 @@
 git add .
-git commit -m "middleware -> error added"
+git commit -m "config -> db problems : fix"
 git push
 git status

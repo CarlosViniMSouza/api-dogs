@@ -1,4 +1,4 @@
 git add .
-git commit -m "config -> db problems : fix"
+git commit -m "auth -> authentication added"
 git push
 git status

@@ -7,8 +7,16 @@ const {
     updateDogs, deleteDogs 
 } = require('../controllers/dogController');
 
+// import the auth controller
+const { authToken } = require('../auth/dogAuth');
+
 // implies a function for each route
-router.route('/').get(getDogs).post(insertDogs);
-router.route('/:id').put(updateDogs).delete(deleteDogs);
+router.route('/')
+    .get(authToken, getDogs)
+    .post(authToken, insertDogs);
+
+router.route('/:id')
+    .put(authToken, updateDogs)
+    .delete(authToken, deleteDogs);
 
 module.exports = router;

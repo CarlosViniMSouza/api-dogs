@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv').config();
-const db = require('./config/dbPostgres');
+const connectDB = require('./config/dbPostgres');
 
 const app = express();
 const port = process.env.PORT || 3333;
